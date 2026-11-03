@@ -7,11 +7,8 @@ authors = [
     { name = "Abdul Munim", email = "abdulmunimx63@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
-
-[project.scripts]
-langchain-course = "langchain_course:main"
-
-[build-system]
-requires = ["uv_build>=0.12.3,<0.13.0"]
-build-backend = "uv_build"
+dependencies = [
+    "black>=26.10.1",
+    "isort>=9.0.2",
+    "python-dotenv>=1.2.4",
+]
